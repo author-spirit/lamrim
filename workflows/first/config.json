@@ -1,0 +1,26 @@
+{
+  "name": "first",
+  "description": "Example workflow with trigger, variables, and user JavaScript",
+  "nodes": [
+    {
+      "id": "start",
+      "name": "start",
+      "type": "trigger",
+      "input": { "type": "event" }
+    },
+    {
+      "id": "init",
+      "name": "init",
+      "type": "variable",
+      "input": {
+        "set": {
+          "user": "martha",
+          "last_name": "mayfield"
+        }
+      }
+    }
+  ],
+  "edges": {
+    "start": ["init"]
+  }
+}
