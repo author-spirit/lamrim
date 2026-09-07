@@ -8,7 +8,7 @@ Run
 
 Start server + web client
 `go run ./cmd/lamrim -serve`
-Open http://localhost:8080
+Open http://localhost:3003
 
 Workflow projects live in `workflows/` (`config.json` + `main.js`).
 Web client lives in `client/`.

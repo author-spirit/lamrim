@@ -8,7 +8,7 @@ Static web UI for the Lamrim HTTP server.
 go run ./cmd/lamrim -serve
 ```
 
-Open http://localhost:8080
+Open http://localhost:3003
 
 ## API used
 

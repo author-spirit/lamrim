@@ -15,7 +15,7 @@ import (
 const (
 	defaultWorkflowsDir = "workflows"
 	defaultClientDir    = "client"
-	defaultAddr         = ":8080"
+	defaultAddr         = ":3003"
 )
 
 func main() {
